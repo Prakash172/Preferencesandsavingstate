@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:id="@+id/theme_cb"
+        android:title="Change Theme"
+        android:summary="Change from light to dark"
+        android:defaultValue="true"
+        android:key="@string/change_theme_key"/>
+    <SwitchPreference android:id="@+id/notification_sw"
+        android:title="Notifications"
+        android:summary="notification of application"
+        android:key="@string/notifications_key"/>
+</PreferenceScreen>
